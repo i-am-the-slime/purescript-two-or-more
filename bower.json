@@ -1,0 +1,27 @@
+{
+    "name": "purescript-my-project",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:i-am-the-slime/purescript-two-or-more.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-arrays": "^v6.0.1",
+        "purescript-console": "^v5.0.0",
+        "purescript-effect": "^v3.0.0",
+        "purescript-foldable-traversable": "^v5.0.1",
+        "purescript-maybe": "^v5.0.0",
+        "purescript-partial": "^v3.0.0",
+        "purescript-prelude": "^v5.0.1",
+        "purescript-psci-support": "^v5.0.0",
+        "purescript-tuples": "^v6.0.1"
+    }
+}
