@@ -12,8 +12,9 @@ to generate this file without the comments in this block.
 -}
 { name = "two-or-more"
 , license = "MIT"
-, repository = "git@github.com:i-am-the-slime/purescript-two-or-more.git"
+, repository = "https://github.com/i-am-the-slime/purescript-two-or-more.git"
 , dependencies =
+
   [ "arrays"
   , "console"
   , "effect"
