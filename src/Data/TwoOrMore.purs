@@ -79,12 +79,12 @@ index (TwoOrMore xs) = A.index xs
 
 infixl 8 index as !!
 
-derive newtype instance eqTwoOrMore ∷ Eq a => Eq (TwoOrMore a)
-derive newtype instance ordTwoOrMore ∷ Ord a => Ord (TwoOrMore a)
-derive newtype instance showTwoOrMore ∷ Show a => Show (TwoOrMore a)
-derive newtype instance functorTwoOrMore ∷ Functor TwoOrMore
-derive newtype instance functorWithIndexTwoOrMore ∷ FunctorWithIndex Int TwoOrMore
-derive newtype instance foldableWithIndexTwoOrMore ∷ FoldableWithIndex Int TwoOrMore
-derive newtype instance foldableTwoOrMore ∷ Foldable TwoOrMore
-derive newtype instance traversableTwoOrMore ∷ Traversable TwoOrMore
-derive newtype instance semigroupTwoOrMore ∷ Semigroup (TwoOrMore a)
+derive newtype instance Eq a => Eq (TwoOrMore a)
+derive newtype instance Ord a => Ord (TwoOrMore a)
+derive newtype instance Show a => Show (TwoOrMore a)
+derive newtype instance Functor TwoOrMore
+derive newtype instance FunctorWithIndex Int TwoOrMore
+derive newtype instance FoldableWithIndex Int TwoOrMore
+derive newtype instance Foldable TwoOrMore
+derive newtype instance Traversable TwoOrMore
+derive newtype instance Semigroup (TwoOrMore a)
